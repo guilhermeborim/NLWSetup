@@ -95,3 +95,35 @@ input:checked {
     color: #A1A1AA;
     text-align: center;
 }
+
+@media (max-width: 500px) {
+    button {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    button div {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .form-habits {
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 330px) {
+    header .logo {
+        display: none;
+    }
+    button {
+        width: 216px;
+        height: 52px;
+    }
+    button div {
+       display: flex;
+    }
+}
